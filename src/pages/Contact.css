@@ -1,0 +1,104 @@
+/* Contact.css */
+.contact {
+  padding: 60px 20px;
+  background-color: #212121;
+  color: #ffffff;
+  min-height: 100vh; /* Ensures the contact section takes up full screen height */
+}
+
+.contact h2 {
+  font-size: 3rem;
+  color: #0091ea; /* sapphire blue */
+  margin-bottom: 30px;
+  text-align: center; /* Centering the heading */
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #121212;
+  padding: 40px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Adds space between form fields */
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  background-color: #ffffff; /* White background for input fields */
+  color: #000000; /* Black text for readability */
+  border: 1px solid #444444;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+  transition: border-color 0.3s ease; /* Smooth border color transition */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #64b5f6; /* Lighter sapphire blue when focused */
+}
+
+.contact-form textarea {
+  min-height: 120px; /* Ensures the message textarea has enough height */
+  resize: vertical; /* Allows user to resize vertically */
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #cccccc; /* Light color for placeholder text */
+}
+
+.contact-form button {
+  padding: 12px;
+  background-color: #0091ea; /* sapphire blue */
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.contact-form button:hover {
+  background-color: #64b5f6; /* lighter sapphire blue */
+}
+
+.contact-form button:disabled {
+  background-color: #64b5f6; /* Lighter blue when the button is disabled */
+  cursor: not-allowed; /* Disable cursor when button is disabled */
+}
+
+.contact-form .status {
+  text-align: center;
+  margin-top: 20px;
+  color: #64b5f6;
+  font-size: 1.2rem;
+}
+
+.contact-form .status.error {
+  color: #f44336; /* Red for error message */
+}
+
+.contact-form .status.success {
+  color: #4caf50; /* Green for success message */
+}
+
+.contact-form label {
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
+.contact-form .required {
+  color: #f44336; /* Red color for required field indicator */
+}
+
+.contact-form .field-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

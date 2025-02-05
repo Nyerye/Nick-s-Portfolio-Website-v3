@@ -1,0 +1,88 @@
+/* Home.css */
+
+/* General section styling */
+section {
+  padding: 40px 20px; /* Add spacing */
+  margin: 20px auto;
+  max-width: 900px; /* Limit width for better readability */
+  background-color: #1c1c1c; /* Match About Me section's background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+  color: #ffffff;
+}
+
+section h2 {
+  font-size: 24px;
+  color: #4699ff; /* Sapphire accent for headings */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+section p, section ul {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+section ul {
+  padding-left: 20px;
+}
+
+section ul li {
+  margin-bottom: 10px;
+}
+
+/* Carousel-specific styles */
+.carousel-container {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.carousel-container img {
+  width: 120px; /* Adjust size for consistency */
+  height: auto;
+  margin: 10px auto;
+}
+
+.carousel-container .slick-prev,
+.carousel-container .slick-next {
+  color: #ffffff; /* Ensure arrows are visible */
+}
+
+.carousel-container .slick-dots li button:before {
+  color: #4699ff; /* Sapphire-colored dots */
+}
+
+/* Flexbox adjustments for logos */
+.home .carousel-item {
+  display: flex;
+  flex-direction: column; /* Stack logo and text vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  margin-top: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home .icon-wrapper {
+  display: flex;
+  justify-content: center; /* Center the image within its container */
+  align-items: center;
+  width: 100%; /* Ensures it spans the full width for alignment */
+  margin-bottom: 10px; /* Spacing between logo and caption */
+  transition: transform 0.3s ease;
+}
+
+.home .logo-name {
+  font-size: 1.2rem;
+  color: #b0b0b0; /* Grey text */
+  text-align: center;
+}
+
+/* Hover effect for carousel items */
+.home .carousel-item:hover {
+  transform: scale(1.1); /* Slight zoom effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for emphasis */
+}
+
+.home .carousel-item:hover .icon-wrapper {
+  transform: translateY(-5px); /* Makes the icon lift slightly on hover */
+}

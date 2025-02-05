@@ -1,0 +1,28 @@
+/* src/App.css */
+
+/* Keyframe for animating color change */
+@keyframes colorChange {
+  0% {
+    color: #DCDC6F; /* Yellow for keywords */
+  }
+  50% {
+    color: #D16969; /* Red for strings */
+  }
+  100% {
+    color: #A0A0A0; /* Grey for braces */
+  }
+}
+
+/* Apply animation for different syntax types */
+.keyword {
+  animation: colorChange 3s infinite;
+  font-weight: bold;
+}
+
+.string {
+  animation: colorChange 3s infinite;
+}
+
+.brace {
+  animation: colorChange 3s infinite;
+}

@@ -1,0 +1,36 @@
+/* Projects.css */
+.projects {
+  padding: 60px 20px;
+  background-color: #121212; /* dark background */
+  color: #ffffff;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 3rem;
+  color: #0091ea; /* sapphire blue */
+  margin-bottom: 30px;
+}
+
+.project-card {
+  background-color: #212121;
+  color: #ffffff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-card h3 {
+  font-size: 2rem;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #b0b0b0;
+}
