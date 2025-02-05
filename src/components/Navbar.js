@@ -14,7 +14,7 @@ function Navbar() {
         <li><Link to="/contact">Contact</Link></li>
         <li>
           <a 
-            href="/NickResume.pdf" 
+            href="%PUBLIC_URL%/NickResume.pdf" 
             download="Nick's Resume.pdf" 
             className="resume-btn"
           >
