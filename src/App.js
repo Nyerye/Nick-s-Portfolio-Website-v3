@@ -9,7 +9,7 @@ import { Container } from '@mui/material';
 
 function App() {
   return (
-    <Router basename="/Nick-sPortfolio.v2"> {/* Add basename for subdirectory */}
+    <Router basename="/basename="/Nick-s-Portfolio-Website-v3"> {/* Add basename for subdirectory */}
       <Navbar />
       <Container maxWidth="lg">
         <Routes>
