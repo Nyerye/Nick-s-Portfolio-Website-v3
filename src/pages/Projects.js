@@ -3,7 +3,7 @@ import './Projects.css'; // Import Projects-specific styles
 
 const projects = [
   {
-    title: "Personla Site (HTML,CSS,JavaScript,NodeJS)",
+    title: "Personal Site (HTML,CSS,JavaScript,NodeJS)",
     description: "This website was made by me in HTML, CSS and JavaScript. Feel free to inspect the page or go to the repo listed here.",
     github: "https://github.com/Nyerye/Nick-s-Portfolio-Webiste-v3"
   },
